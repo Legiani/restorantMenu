@@ -1,0 +1,76 @@
+body {
+  padding-top: 54px;
+  color: #868e96;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  font-family: 'Arial';
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #343a40;
+  margin: 10px;
+}
+
+h1 {
+  font-size: 6rem;
+  line-height: 5.5rem;
+}
+
+section {
+  padding: 1%;
+}
+
+table, th, td {
+  width: 100%;
+  padding: 4px;
+  border-collapse: collapse;
+  border: 1px solid #868e96;
+  border-style: dotted;
+  border-radius: 2px;
+  margin-left: -10px;
+  margin-top: 15px;
+  color: black;
+}
+
+.restorant {
+  font-weight: bold;
+  margin-bottom: 0px;
+  margin-top: 50px;
+}
+
+.address{
+  float: left;
+}
+
+.userRate{
+  float: right;
+  margin-right: 20px;
+}
+
+#noMenu{
+  margin-top: 30px;
+  text-align: center;
+}
+
+/* Alert if JavaScrip is disable */
+#nojsmsg{
+  background-color: whitesmoke;
+  width: 60%;
+  height: 60%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  left: 20%;
+  top: 20%;
+}
+
